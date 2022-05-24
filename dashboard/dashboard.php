@@ -126,7 +126,7 @@ include('prcd/conn.php');
               Inicio <span class="sr-only">(current)</span>
             </a>
           </li>
-          <hr style="color: dimgrey;">
+          <hr class="bg-light text-light">
           
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-light">
             <span><i class="bi bi-camera-reels-fill"></i> Tutoriales</span>

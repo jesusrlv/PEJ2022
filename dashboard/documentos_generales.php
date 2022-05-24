@@ -87,12 +87,12 @@ include('../dashboard/prcd/conn.php');
 
 <div class="container-fluid">
   <div class="row">
-    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-info sidebar collapse">
+  <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-secondary sidebar collapse">
       <div class="sidebar-sticky pt-3">
         
         <ul class="navbar-nav px-3 text-center">
             <li class="align-middle">
-                   <img src="../img/png_logo.png" width="81%" class="" alt="" loading="lazy">  
+                   <img src="../img/logo.png" width="81%" class="" alt="" loading="lazy">  
       
             </li>
         </ul>
@@ -100,7 +100,7 @@ include('../dashboard/prcd/conn.php');
         <h6 class="sidebar-heading d-flex justify-content-center text-center align-items-center px-3 mt-4 mb-1 text-muted">
 
           <span class="text-light">
-          Bienvenido<br><i class="fas fa-user"></i> 
+          bienvenido<br><i class="fas fa-user"></i> 
             <?php
             
               echo utf8_encode($nombre);
@@ -112,36 +112,33 @@ include('../dashboard/prcd/conn.php');
         <ul class="nav flex-column">
  
            <li class="nav-item">
-            <a class="nav-link active text-light" href="../administrador/dashboard.php">
-              <!-- <span data-feather="home"></span> -->
+            <a class="nav-link active text-light" href="dashboard.php">
               <i class="fas fa-laptop-house"></i> 
               Inicio <span class="sr-only">(current)</span>
             </a>
           </li>
-          <hr style="color: dimgrey;">
+          <hr class="bg-light text-light">
           
-          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-            <span class="text-light">REVISIÓN</span>
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-light">
+            <span><i class="bi bi-camera-reels-fill"></i> Tutoriales</span>
             <a class="d-flex align-items-center text-muted" href="dashboard.php" aria-label="Add a new report">
               <span data-feather="plus-circle"></span>
             </a>
           </h6>
 
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://www.youtube.com/watch?v=HLHInBqq3WA" target="_blank">
+               
+            <i class="bi bi-play-circle-fill"></i> Subir Datos Personales y Documentos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="https://www.youtube.com/watch?v=PAGe953Wvjo" target="_blank">
+               
+            <i class="bi bi-play-circle-fill"></i> Elaboración de video semblanza
+            </a>
+          </li>
           
-
-          <li class="nav-item">
-            <a class="nav-link text-light" href="../administrador/busqueda.php">
-               
-            <i class="bi bi-search"></i> Búsqueda de usuario
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="../administrador/revision_calificaciones.php">
-               
-            <i class="bi bi-card-checklist"></i> Calificaciones
-            </a>
-          </li>
-         
         </ul>
 
     
