@@ -54,7 +54,7 @@ include('conn.php');
     $mail->Port       = 587;                                    // TCP port to connect to
     
         //Recipients
-        $mail->setFrom('premioestatalinjuventud2021@gmail.com', 'PEJ21 - INJUVENTUD');
+        $mail->setFrom('injuventud@zacatecas.gob.mx', 'PEJ2022 - INJUVENTUD');
         $mail->addAddress($email, $nombre);     // Add a recipient
         // $mail->addAddress('ellen@example.com');               // Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
