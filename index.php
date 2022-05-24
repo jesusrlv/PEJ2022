@@ -80,7 +80,8 @@ background-size: 500px 300px;">
   <label for="inputEmail" class="sr-only">Usuario</label>
   <input type="text" id="inputEmail" class="form-control" placeholder="Usuario" name="usuario" required autofocus>
   <label for="inputPassword" class="sr-only">Contraseña</label>
-  <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" name="pwd" required>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" name="pwd" pattern="[a-zA-Z ]{2,254}"
+ required>
   <div class="checkbox mb-3">
     <!-- <label>
       <input type="checkbox" value="remember-me"> Remember me
