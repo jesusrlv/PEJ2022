@@ -52,15 +52,10 @@ include('prcd/qwery.php');
     <script src="https://kit.fontawesome.com/4d63b5ef28.js" crossorigin="anonymous"></script>
 
     <!-- íconos Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- Bootstrap core CSS -->
-    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/form-validation.css" rel="stylesheet">
 
 
@@ -91,7 +86,6 @@ include('prcd/qwery.php');
     <!-- <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"> -->
     <nav class="navbar navbar-light sticky-top flex-md-nowrap p-0 bg-light text-dark">
         <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3 text-center text-white" href="#">
-
     <!-- <img src="../img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="" loading="lazy">   -->
     <h5 class="text-center text-dark display-7" style="margin-left:3px;"><b>INJUVENTUD</b></h5>
     </a>
@@ -196,10 +190,10 @@ include('prcd/qwery.php');
 
       <!-- <hr style="color: dimgrey;"> -->
       <h2></h2>
-    <!-- <div class="container-fluid "> -->
+    <div class="container-fluid ">
 
 
-      <div class="container-fluid " style="background-color:#f8f9fa; width:100%; border-radius:5px;  margin-top:25px; padding-top:45px;">
+      <div class="jumbotron jumbotron-fluid " style="background-color:#f8f9fa; width:100%;border-radius:5px;  margin-top:25px; padding-top:45px;">
         <div class="container-fluid">
           <h1 class="h1">SECCIÓN </h1>
           <p class="lead">Documentos</p>
@@ -989,28 +983,61 @@ function abortHandler8(event) {
         </div>
       </div>
         <!-- ROW -->
+
+
+        
+        
+            
+
+                
                 <hr class="mb-4">
                 <!-- <button class="btn btn-primary btn-lg btn-block" type="submit">Terminar Sección 4 <i class="bi bi-skip-forward-fill"></i></button> -->
-                <!-- <a type="button" class="btn btn-primary btn-lg btn-block" href="dashboard.php"></a> -->
-                <div class="d-grid gap-2">
-                  <a href="dashboard.php" class="btn btn-primary" type="button" type="button"><i class="bi bi-backspace-fill"></i> Regresar</a>
-                </div>
+                <a type="button" class="btn btn-primary btn-lg btn-block" href="dashboard.php"><i class="bi bi-backspace-fill"></i> Regresar</a>
             </form>
             </div>
+
+
         </div>
         <!-- interno -->
+
+
         </div>
       </div>
-      <!-- </div> fluid -->
+
+      <!-- card -->
+      
+      <!-- card -->
+
+      
+
+      </div>
+
+      <!-- ROW -->
+
+
+
+      <!-- ROW -->
     </main>
   </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="css/bootstrap.bundle.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
         <script src="css/dashboard.js"></script></body>
 </html>
+
+<!-- 
+
+https://startbootstrap.com/theme/sb-admin-pro-angular
+
+https://startbootstrap.com/themes/admin-dashboard
+ -->
+
+
+<!-- aquiiiiiii -->
+<!-- CODIGO -->
 
