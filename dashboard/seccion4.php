@@ -91,6 +91,7 @@ include('prcd/qwery.php');
     <!-- <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"> -->
     <nav class="navbar navbar-light sticky-top flex-md-nowrap p-0 bg-light text-dark">
         <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3 text-center text-white" href="#">
+
     <!-- <img src="../img/logo.png" width="45" height="45" class="d-inline-block align-top" alt="" loading="lazy">   -->
     <h5 class="text-center text-dark display-7" style="margin-left:3px;"><b>INJUVENTUD</b></h5>
     </a>
@@ -195,10 +196,10 @@ include('prcd/qwery.php');
 
       <!-- <hr style="color: dimgrey;"> -->
       <h2></h2>
-    <div class="container-fluid ">
+    <!-- <div class="container-fluid "> -->
 
 
-      <div class="container-fluid " style="background-color:#f8f9fa; width:100%;border-radius:5px;  margin-top:25px; padding-top:45px;">
+      <div class="container-fluid " style="background-color:#f8f9fa; width:100%; border-radius:5px;  margin-top:25px; padding-top:45px;">
         <div class="container-fluid">
           <h1 class="h1">SECCIÓN </h1>
           <p class="lead">Documentos</p>
@@ -988,13 +989,6 @@ function abortHandler8(event) {
         </div>
       </div>
         <!-- ROW -->
-
-
-        
-        
-            
-
-                
                 <hr class="mb-4">
                 <!-- <button class="btn btn-primary btn-lg btn-block" type="submit">Terminar Sección 4 <i class="bi bi-skip-forward-fill"></i></button> -->
                 <!-- <a type="button" class="btn btn-primary btn-lg btn-block" href="dashboard.php"></a> -->
@@ -1003,28 +997,11 @@ function abortHandler8(event) {
                 </div>
             </form>
             </div>
-
-
         </div>
         <!-- interno -->
-
-
         </div>
       </div>
-
-      <!-- card -->
-      
-      <!-- card -->
-
-      
-
-      </div>
-
-      <!-- ROW -->
-
-
-
-      <!-- ROW -->
+      <!-- </div> fluid -->
     </main>
   </div>
 </div>
