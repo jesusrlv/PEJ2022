@@ -198,7 +198,7 @@ include('prcd/qwery.php');
     <div class="container-fluid ">
 
 
-      <div class="jumbotron jumbotron-fluid " style="background-color:#f8f9fa; width:100%;border-radius:5px;  margin-top:25px; padding-top:45px;">
+      <div class="container-fluid " style="background-color:#f8f9fa; width:100%;border-radius:5px;  margin-top:25px; padding-top:45px;">
         <div class="container-fluid">
           <h1 class="h1">SECCIÓN </h1>
           <p class="lead">Documentos</p>
