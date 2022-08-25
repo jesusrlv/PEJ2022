@@ -72,7 +72,7 @@ background-size: 500px 300px;">
 
 <!-- <form class="form-signin" action="dashboard.html" method="POST" name="envio"> -->
 <form class="form-signin" action="dashboard/prcd/proceso_validacion.php" name="envio" method="POST">
-  <img class="mb-4" src="img/logo_injuventud_0.png" alt="" width="54%" >
+ 
   <img class="mb-4" src="img/logo.png" alt="" width="100%" >
   <h3></h3>
   <hr class="bg-light">
