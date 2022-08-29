@@ -6,7 +6,7 @@ session_start();
     $perfil = $_SESSION['perfil'];
     $nombre = $_SESSION['nombre'];
 
-require('prcd/fpdf.php');
+require('prcd/fpdf/fpdf.php');
 
 class PDF extends FPDF
 {
