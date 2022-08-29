@@ -18,9 +18,9 @@ function Header()
     /* Move to the right */
     $this->Cell(60);
     // Logo
-    $this->Image('../img/RESP_logo.png',70,14,54);
+    $this->Image('../img/RESP_logo.png',70,30,54);
   
-    $this->Cell(100,18,'Premio Estatal de la Juventud 2022',0,0,'C');
+    $this->Cell(100,14,'Premio Estatal de la Juventud 2022',0,0,'C');
     
 }
 /* Page footer */
