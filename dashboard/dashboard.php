@@ -147,6 +147,19 @@ include('prcd/conn.php');
             <i class="bi bi-play-circle-fill"></i> Elaboración de video semblanza
             </a>
           </li>
+          <hr>
+          <li>
+          <?php
+                  if($x < 9){
+                    echo '';
+                  }
+                  elseif($x >= 9){
+                    echo '
+                    <a href="generador_carta.php" class="nav-link text-light"><i class="bi bi-pencil-square"></i> Carta comprobante</a>';
+                  }
+                  
+                ?>
+          </li>
           
         </ul>
 
