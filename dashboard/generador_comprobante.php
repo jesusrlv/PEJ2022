@@ -42,8 +42,8 @@ $pdf->AddPage();
 $pdf->SetFont('Times','',12);
 $string1="Estimado participante:";
 $string2="Por medio de la presente, le agradecemos el haber participado en la convocatoria del Premio Estatal de la Juventud 2022 en la ciudad de Zacatecas, Zac. El Gobierno del Estado de Zacatecas agradece tu participación. ATENTAMENTE ING. MAURICIO ACEVEDO RODRÍGUEZ DIRECTOR GENERAL DEL INJUVENTUD";
-$pdf->Write(90,$string1);
-$pdf->Write(100,$string2);
+$pdf->Write(100,$string1);
+$pdf->Write(120,$string2);
 
 $pdf->Output();
 ?>
