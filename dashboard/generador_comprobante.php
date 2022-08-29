@@ -40,12 +40,7 @@ $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->SetFont('Times','',12);
-$string="<b>Estimado participante:</b>
-<p>Por medio de la presente, le agradecemos el haber participado en la convocatoria del <strong>Premio Estatal de la Juventud 2022</strong> en la ciudad de Zacatecas, Zac.</p>
-<p>El Gobierno del Estado de Zacatecas agradece tu participación.</p>
-<p>ATENTAMENTE</p>
-<p><strong>ING. MAURICIO ACEVEDO RODRÍGUEZ</p>
-<p>DIRECTOR GENERAL<br>DEL INJUVENTUD</strong></p>";
+$string="<b>Estimado participante:</b><p>Por medio de la presente, le agradecemos el haber participado en la convocatoria del <strong>Premio Estatal de la Juventud 2022</strong> en la ciudad de Zacatecas, Zac.</p><p>El Gobierno del Estado de Zacatecas agradece tu participación.</p><p>ATENTAMENTE</p><p><strong>ING. MAURICIO ACEVEDO RODRÍGUEZ</p><p>DIRECTOR GENERAL<br>DEL INJUVENTUD</strong></p>";
 $pdf->Cell(50,20,$string);
 
 $pdf->Output();
