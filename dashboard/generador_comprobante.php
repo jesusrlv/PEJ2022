@@ -46,7 +46,7 @@ $string="<strong>Estimado participante:</strong>
 <p>ATENTAMENTE</p>
 <p><strong>ING. MAURICIO ACEVEDO RODRÍGUEZ</p>
 <p>DIRECTOR GENERAL<br>DEL INJUVENTUD</strong></p>";
-$pdf->Cell(72,45,$string);
+$pdf->Cell(90,20,$string);
 
 $pdf->Output();
 ?>
