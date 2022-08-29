@@ -20,7 +20,7 @@ function Header()
     // Logo
     $this->Image('../img/RESP_logo.png',81,27,54);
   
-    $this->Cell(90,10,'Premio Estatal de la Juventud 2022',0,0,'C');
+    $this->Cell(81,10,'Premio Estatal de la Juventud 2022',0,0,'C');
     
 }
 /* Page footer */
