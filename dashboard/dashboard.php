@@ -79,7 +79,7 @@ include('prcd/conn.php');
         include('prcd/qwery_validacion_dashboard.php');
         ?>
         <!-- consulta de validación -->
-        
+
     <nav class="navbar navbar-light sticky-top flex-md-nowrap p-0 bg-light text-dark">
         <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3 text-center text-white" href="#">
     <h5 class="text-center text-dark display-7" style="margin-left:3px;"><b>INJUVENTUD</b></h5>
@@ -160,7 +160,7 @@ include('prcd/conn.php');
                   }
                   elseif($x >= 9){
                     echo '
-                    <a href="generador_carta.php" class="nav-link text-light"><i class="bi bi-pencil-square"></i> Carta comprobante</a>';
+                    <a href="generador_carta.php" class="nav-link text-light"><i class="bi bi-file-earmark-text-fill"></i> Carta comprobante</a>';
                   }
                   
                 ?>
