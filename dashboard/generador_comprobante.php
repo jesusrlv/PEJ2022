@@ -70,12 +70,12 @@ Su postulación es fundamental para la construcción de un Estado más próspero
 Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capacidades, no tienen límites!
 ',1,'J',0);
 $pdf->SetFont('Arial','I',10);
-$pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',1,'J',0);
+$pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',1,'C',0);
 $pdf->Image('../img/rubrica.png');
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,9,'DIRECTOR GENERAL
 INSTITUTO DE LA JUVENTUD 
-DEL ESTADO DE ZACATECAS',1,'J',0);
+DEL ESTADO DE ZACATECAS',1,'C',0);
 
 $pdf->Output();
 
