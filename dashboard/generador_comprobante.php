@@ -52,8 +52,8 @@ Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capa
 
 En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'J',0);
 
-$pdf->Cell(300,5,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,1,'R');
-$pdf->Cell(320,5,'DIRECTOR GENERAL INSTITUTO DE LA JUVENTUD DEL ESTADO DE ZACATECAS',0,1,'R');
+// $pdf->Cell(300,5,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,1,'R');
+// $pdf->Cell(320,5,'DIRECTOR GENERAL INSTITUTO DE LA JUVENTUD DEL ESTADO DE ZACATECAS',0,1,'R');
 
 $pdf->Output();
 ?>
