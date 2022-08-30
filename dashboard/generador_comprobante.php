@@ -59,6 +59,7 @@ function Footer()
 // Creación del objeto de la clase heredada
 $pdf = new PDF();
 $pdf->AliasNbPages();
+$pdf->Image('../img/RESP_fondo.jpg','0','0','200','300','JPG');
 $pdf->AddPage();
 // $pdf->Image('../img/RESP_fondo.jpg','0','0','200','300','JPG');
 $pdf->SetFont('Arial','B',10);
@@ -79,7 +80,7 @@ $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,'DIRECTOR GENERAL
 INSTITUTO DE LA JUVENTUD 
 DEL ESTADO DE ZACATECAS',0,'C',0);
-$pdf->Image('../img/RESP_fondo.jpg','0','0','200','300','JPG');
+
 $pdf->Output();
 
 ?>
