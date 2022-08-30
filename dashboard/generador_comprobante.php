@@ -11,10 +11,11 @@ require('prcd/fpdf/fpdf.php');
 $pdf = new FPDF();
 $pdf->AddPage();
 $pdf->SetFont('Arial','B',10);
+$pdf->Image('../img/RESP_logo.png',10,12,30,0,'','http://www.fpdf.org');
 $pdf->Cell(72,10,'Universidad Autónoma de Zacatecas',0, 0, 'C');
 $pdf->Cell(90,10,'Oficio de Aceptación de Ponencia',0, 1, 'R');
 
-$pdf->Multicell(190,10,'Estimado autor: <AUTOR>
+$pdf->Multicell(190,7,'Estimado autor: <AUTOR>
 <UNIVERSIDAD>
 <CORREO>
 
