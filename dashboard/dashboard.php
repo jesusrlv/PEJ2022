@@ -160,7 +160,7 @@ include('prcd/conn.php');
                   }
                   elseif($x >= 9){
                     echo '
-                    <a href="generador_carta.php" class="nav-link text-light"><i class="bi bi-file-earmark-text-fill"></i> Carta comprobante</a>';
+                    <a href="generador_comprobante.php" class="nav-link text-light"><i class="bi bi-file-earmark-text-fill"></i> Carta comprobante</a>';
                   }
                   
                 ?>

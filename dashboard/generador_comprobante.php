@@ -40,10 +40,10 @@ $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->SetFont('Arial','B',10);
-$pdf->Cell(72,10,'Universidad Autónoma de Zacatecas',0, 0, 'C');
-$pdf->Cell(90,10,'Oficio de Aceptación de Ponencia',0, 1, 'R');
+// $pdf->Cell(72,10,'Universidad Autónoma de Zacatecas',0, 0, 'C');
+// $pdf->Cell(90,10,'Oficio de Aceptación de Ponencia',0, 1, 'R');
 
-$pdf->Multicell(190,10,'Estimado autor: <AUTOR>
+$pdf->Multicell(190,10,'Estimado '.$nombre.'
 <UNIVERSIDAD>
 <CORREO>
 Este mensaje es para confirmarle que el resumen cuyos detalles se presentan a continuación ha sido aceptado para ser presentado como ponencia oral en el 1er Congreso Internacional sobre Gestión de las Organizaciones y 3er Encuentro de Investigadores en Gestión Ambiental y Sustentabilidad, por lo que lo invitamos a enviar su ponencia en extenso. La fecha límite para el envío de su trabajo en extenso es el 15 de julio de 2019.
