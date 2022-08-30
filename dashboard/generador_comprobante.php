@@ -40,7 +40,7 @@ $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->SetFont('Arial','C',10);
-$pdf->Cell(72,10,'Estimado(a) participante '.$nombre.',',0, 0, 'B');
+$pdf->Cell(72,10,'Estimado(a) participante '.$nombre.',',0, 0, 'C');
 $pdf->Cell(90,10,'',0, 1, 'R');
 
 $pdf->Multicell(190,4,'Estimado 
@@ -50,9 +50,7 @@ Su postulación es fundamental para la construcción de un Estado más próspero
 
 Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capacidades, no tienen límites!
 
-En la ciudad de Zacatecas, Zac., noviembre de 2022.
-',0,'J',0
-);
+En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'J',0);
 
 $pdf->Cell(300,5,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0, 1, 'R');
 $pdf->Cell(320,5,'DIRECTOR GENERAL
