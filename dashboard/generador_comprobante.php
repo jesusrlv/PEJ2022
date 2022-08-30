@@ -71,6 +71,7 @@ Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capa
 ',1,'J',0);
 $pdf->SetFont('Arial','I',10);
 $pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',1,'J',0);
+$pdf->Image('../img/rubrica.png');
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,9,'DIRECTOR GENERAL
 INSTITUTO DE LA JUVENTUD 
