@@ -2,7 +2,7 @@
     <header>
         <title>Constancia de participación | PEJ2022</title>
     </header>
-</html>
+    <body>
 <?php
 session_start();
 
@@ -87,3 +87,7 @@ DEL ESTADO DE ZACATECAS',0,'C',0);
 $pdf->Output();
 
 ?>
+
+</body>
+
+</html>
