@@ -39,7 +39,7 @@ function Footer()
 $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
-$pdf->Image('../img/RESP_logo.png',10,12,30,0,'','http://www.fpdf.org');
+// $pdf->Image('../img/RESP_logo.png',10,12,30,0,'','http://www.fpdf.org');
 $pdf->SetFont('Arial','C',10);
 $pdf->Cell(72,10,'',0, 0, 'C');
 $pdf->Cell(90,10,'',0, 1, 'R');
