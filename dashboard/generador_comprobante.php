@@ -61,21 +61,21 @@ $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->SetFont('Arial','B',10);
-$pdf->Cell(0,10,'Estimado(a) participante,',0,1);
+$pdf->Cell(0,10,'Estimado(a) participante,',0,0);
 $pdf->SetFont('Arial','',10);
-$pdf->Multicell(190,9,'Por medio de la presente, el Instituto de la Juventud del Estado de Zacatecas, a través de su Director General, el Ing. Mauricio Acevedo Rodríguez, reconoce a usted su participación como candidato(a) a recibir el Premio Estatal de la Juventud en su edición 2022.
+$pdf->Multicell(190,9,utf8_decode('Por medio de la presente, el Instituto de la Juventud del Estado de Zacatecas, a través de su Director General, el Ing. Mauricio Acevedo Rodríguez, reconoce a usted su participación como candidato(a) a recibir el Premio Estatal de la Juventud en su edición 2022.
 
 Su postulación es fundamental para la construcción de un Estado más próspero, incluyente, democrático e igualitario. Gracias a su intervención, recordamos lo importante que es reconocer el talento y la trayectoria de las y los jóvenes en nuestra Entidad. Los principios rectores de la Nueva Gobernanza, nos obligan a impulsar y generar los espacios oportunos para que las juventudes puedan alcanzar sus objetivos, desarrollarse de manera integral y vivir en bienestar. No sólo representas uno de los cimientos más importantes de la sociedad, también eres protagonista del presente y agente estratégico para la transformación nacional.
 
 Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capacidades, no tienen límites!
-',1,'J',0);
+'),1,'J',0);
 $pdf->SetFont('Arial','I',10);
-$pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',1,'C',0);
+$pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'C',0);
 $pdf->Image('../img/rubrica.png');
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,9,'DIRECTOR GENERAL
 INSTITUTO DE LA JUVENTUD 
-DEL ESTADO DE ZACATECAS',1,'C',0);
+DEL ESTADO DE ZACATECAS',0,'C',0);
 
 $pdf->Output();
 
