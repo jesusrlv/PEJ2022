@@ -62,7 +62,7 @@ $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->Image('../img/RESP_fondo.jpg','0','0','200','300','JPG');
 $pdf->SetFont('Arial','B',10);
-$pdf->Multicell(190,8,'CONSTANCIA DE PARTICIPACIÓN',0,'C',0);
+$pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
 $pdf->Cell(0,12,'Estimado(a) participante, '.$nombre.' ',0,1);
 $pdf->SetFont('Arial','',10);
