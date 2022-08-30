@@ -62,6 +62,8 @@ $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->Image('../img/RESP_fondo.jpg','0','0','200','300','JPG');
 $pdf->SetFont('Arial','B',10);
+$pdf->Multicell(190,8,'CONSTANCIA DE PARTICIPACIÓN',0,'C',0);
+$pdf->SetFont('Arial','B',10);
 $pdf->Cell(0,12,'Estimado(a) participante, '.$nombre.' ',0,1);
 $pdf->SetFont('Arial','',10);
 $pdf->Multicell(190,9,utf8_decode('Por medio de la presente, el Instituto de la Juventud del Estado de Zacatecas, a través de su Director General, el Ing. Mauricio Acevedo Rodríguez, reconoce a usted su participación como candidato(a) a recibir el Premio Estatal de la Juventud en su edición 2022.
