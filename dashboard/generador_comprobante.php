@@ -68,6 +68,8 @@ $pdf->SetFont('Arial','B',10);
 $pdf->Ln();
 $pdf->Ln();
 $pdf->Ln();
+$pdf->Ln();
+$pdf->Ln();
 $pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
 $pdf->Cell(0,12,'Estimado(a) participante, '.$nombre.' ',0,1);
