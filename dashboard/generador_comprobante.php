@@ -61,7 +61,7 @@ $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->Image('../img/fondo_pej2022.png','0','0','200','300','PNG');
-$pdf->MultiCell(190,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 150) ,0,"C");
+$pdf->MultiCell(190,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 100) ,0,"C");
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
