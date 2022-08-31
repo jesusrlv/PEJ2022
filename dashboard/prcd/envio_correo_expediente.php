@@ -99,7 +99,7 @@ include('conn.php');
 
         echo "<script type=\"text/javascript\">Swal.fire(
             'Proceso terminado',
-            'Has terminado de cargar tu expediente al sistema.',
+            'Has terminado de cargar tu expediente al sistema. Puedes descargar tu constancia de participación en el menú de tu pantalla principal.',
             'warning'
           ).then(function(){window.location='../dashboard.php';});</script>";
     }
