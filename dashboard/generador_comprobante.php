@@ -7,6 +7,7 @@ session_start();
     $nombre = $_SESSION['nombre'];
 
 require('prcd/fpdf/fpdf.php');
+$lineBreak=0.21;
 
 // $pdf = new FPDF();
 // $pdf->AddPage();
@@ -54,7 +55,7 @@ function Footer()
     // Arial italic 8
     $this->SetFont('Arial','I',8);
     // Número de página
-    $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
+    $this->Cell(0,10,'Página '.$this->PageNo().'/{nb}',0,0,'C');
 }
 }
 
@@ -65,11 +66,11 @@ $pdf->AddPage();
 $pdf->Image('../img/fondo_pej2022.png','0','0','250','300','PNG');
 // $pdf->MultiCell(190,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+5, $pdf->GetY()+3, 180) ,0,"C");
 $pdf->SetFont('Arial','B',10);
-$pdf->Ln();
-$pdf->Ln();
-$pdf->Ln();
-$pdf->Ln();
-$pdf->Ln();
+$pdf->Ln($lineBreak);
+$pdf->Ln($lineBreak);
+$pdf->Ln($lineBreak);
+$pdf->Ln($lineBreak);
+$pdf->Ln($lineBreak);
 $pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
 $pdf->Cell(0,12,'Estimado(a) participante, '.$nombre.' ',0,1);
