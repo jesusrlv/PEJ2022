@@ -94,7 +94,7 @@ background-size: 500px 300px;">
   <!-- <button class="btn btn-lg btn-warning btn-block" name="Submit" type="submit"><i class="fas fa-user-plus"></i> Registrarse</button> -->
   <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user-plus"></i> Registrarse</button><!-- convocatoria cerrada -->
   <hr>
-  <h6 class="text-light"><a href="email/index.php"> ¿Olvidaste tu contraseña?</a></h6> <!-- convocatoria cerrada -->
+  <h6 class="text-light"><a href="email/index.php" class="text-light" style="text-decoration:none;"> ¿Olvidaste tu contraseña?</a></h6> <!-- convocatoria cerrada -->
   <h6 class="text-light"><a href="" class="text-light" style="text-decoration:none;"><i class="bi bi-youtube"></i> Video tutorial</a></h6> <!-- convocatoria cerrada -->
   <!-- convocatoria cerrada -->
   <p></p>
