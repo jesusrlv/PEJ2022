@@ -55,7 +55,7 @@ function Footer()
     // Arial italic 8
     $this->SetFont('Arial','I',8);
     // Número de página
-    $this->Cell(0,10,'Página '.$this->PageNo().'/{nb}',0,0,'C');
+    $this->Cell(0,10,utf8_decode('Página ').$this->PageNo().'/{nb}',0,0,'C');
 }
 }
 
@@ -71,7 +71,9 @@ $pdf->Ln($lineBreak);
 $pdf->Ln($lineBreak);
 $pdf->Ln($lineBreak);
 $pdf->Ln($lineBreak);
-$pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),50,'C',0);
+$pdf->Multicell(190,8,utf8_decode('
+
+CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
 $pdf->Cell(0,12,'Estimado(a) participante, '.$nombre.' ',0,1);
 $pdf->SetFont('Arial','',10);
