@@ -61,7 +61,7 @@ $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->Image('../img/fondo_pej2022.png','0','0','200','300','PNG');
-$pdf->MultiCell(190,9, $pdf->Image("../img/logos_portada_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 150) ,0,"C");
+$pdf->MultiCell(190,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 150) ,0,"C",0);
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
@@ -77,7 +77,7 @@ Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capa
 $pdf->SetFont('Arial','I',10);
 $pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'C',0);
 // $pdf->Image('../img/rubrica_pej2022.png','PNG');
-$pdf->MultiCell(190,9, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 150) ,0,"C");
+$pdf->MultiCell(190,9, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 150) ,0,"C",0);
 //IMAGE (RUTA,X,Y,ANCHO,ALTO,EXTEN)
 $pdf->Ln();
 $pdf->SetFont('Arial','B',10);
