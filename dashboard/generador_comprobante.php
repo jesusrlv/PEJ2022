@@ -33,7 +33,7 @@ class PDF extends FPDF
 function Header()
 {
     // Logo
-    $this->Image('../img/logos_portada_pej2022.png',10,8,33);
+    // $this->Image('../img/logos_portada_pej2022.png',10,8,33);
     // Arial bold 15
     $this->SetFont('Arial','B',15);
     // Movernos a la derecha
@@ -60,7 +60,7 @@ function Footer()
 $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
-$pdf->Image('../img/fondo_pej2022.png','0','0','200','300','JPG');
+$pdf->Image('../img/fondo_pej2022.png','0','0','200','300','PNG');
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
