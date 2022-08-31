@@ -141,7 +141,7 @@ include('prcd/conn.php');
           </h6>
 
           <li class="nav-item">
-            <a class="nav-link text-light" href="https://www.youtube.com/watch?v=HLHInBqq3WA" target="_blank">
+            <a class="nav-link text-light" href="https://youtu.be/dO-Yt-k5L3s" target="_blank">
                
             <i class="bi bi-play-circle-fill"></i> Subir Datos Personales y Documentos
             </a>
@@ -328,7 +328,7 @@ include('prcd/conn.php');
               </div>
               <div class="modal-body">
                 
-                  <p><a href="https://www.youtube.com/watch?v=HLHInBqq3WA" target="_blank"><i class="bi bi-play-circle-fill"></i> Subir datos personales y documentos</a></p>
+                  <p><a href="https://youtu.be/dO-Yt-k5L3s" target="_blank"><i class="bi bi-play-circle-fill"></i> Subir datos personales y documentos</a></p>
                   <p><a href="https://www.youtube.com/watch?v=PAGe953Wvjo" target="_blank"><i class="bi bi-play-circle-fill"></i> Elaboración video semblanza</a></p>
               </div>
               <div class="modal-footer">
