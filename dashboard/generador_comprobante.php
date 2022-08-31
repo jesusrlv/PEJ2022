@@ -33,6 +33,8 @@ class PDF extends FPDF
 function Header()
 {
     // Logo
+    $pdf->MultiCell(0,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+5, $pdf->GetY()+3, 180) ,0,"C");
+
     // $this->Image('../img/logos_portada_pej2022.png',5,8,175);
     // Arial bold 15
     $this->SetFont('Arial','B',15);
