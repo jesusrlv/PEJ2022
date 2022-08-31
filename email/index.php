@@ -64,7 +64,7 @@
 
 </head>
 
-<body class="text-center" style="background-image: url(img/fondo.jpg); background-repeat: repeat;background-attachment: fixed;  
+<body class="text-center" style="background-image: url(../img/fondo.jpg); background-repeat: repeat;background-attachment: fixed;  
 background-size: 500px 300px;">
 
 
