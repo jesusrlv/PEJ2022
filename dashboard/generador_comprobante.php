@@ -35,7 +35,7 @@ function Header()
     // Logo
     // $pdf->MultiCell(0,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+5, $pdf->GetY()+3, 180) ,0,"C");
 
-    $this->Image('../img/logos_pej2022.png',2,8,200);
+    $this->Image('../img/logos_pej2022.png',5,0,200);
     // Arial bold 15
     $this->SetFont('Arial','B',15);
     // Movernos a la derecha
@@ -64,10 +64,10 @@ $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->Image('../img/fondo_pej2022.png','0','0','250','300','PNG');
 // $pdf->MultiCell(190,9, $pdf->Image("../img/logos_pej2022.png", $pdf->GetX()+5, $pdf->GetY()+3, 180) ,0,"C");
-$pdf->Ln();
-$pdf->Ln();
-$pdf->Ln();
 $pdf->SetFont('Arial','B',10);
+$pdf->Ln();
+$pdf->Ln();
+$pdf->Ln();
 $pdf->Multicell(190,8,utf8_decode('CONSTANCIA DE PARTICIPACIÓN'),0,'C',0);
 $pdf->SetFont('Arial','B',10);
 $pdf->Cell(0,12,'Estimado(a) participante, '.$nombre.' ',0,1);
