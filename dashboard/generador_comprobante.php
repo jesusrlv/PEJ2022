@@ -81,6 +81,7 @@ $pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'C
 $pdf->MultiCell(190,9, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX()+20, $pdf->GetY()+1, 150) ,0,"C",0);
 //IMAGE (RUTA,X,Y,ANCHO,ALTO,EXTEN)
 $pdf->Ln();
+$pdf->Ln();
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,'DIRECTOR GENERAL
 INSTITUTO DE LA JUVENTUD 
