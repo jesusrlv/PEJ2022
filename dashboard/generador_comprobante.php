@@ -75,13 +75,13 @@ Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capa
 '),0,'J',0);
 $pdf->SetFont('Arial','I',10);
 $pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'C',0);
-$pdf->Image('../img/rubrica_pej2022.png','PNG');
-$pdf->MultiCell(190,9, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 100) ,0,"C");
+// $pdf->Image('../img/rubrica_pej2022.png','PNG');
+$pdf->MultiCell(190,9, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX()+40, $pdf->GetY()+3, 150) ,0,"C");
 //IMAGE (RUTA,X,Y,ANCHO,ALTO,EXTEN)
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,'DIRECTOR GENERAL
 INSTITUTO DE LA JUVENTUD 
-DEL ESTADO DE ZACATECAS',0,'L',0);
+DEL ESTADO DE ZACATECAS',0,'C',0);
 
 $pdf->Output();
 
