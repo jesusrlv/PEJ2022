@@ -33,7 +33,7 @@ class PDF extends FPDF
 function Header()
 {
     // Logo
-    $this->Image('../img/logos_portada_pej2022.png',10,8,200);
+    $this->Image('../img/logos_portada_pej2022.png',5,8,175);
     // Arial bold 15
     $this->SetFont('Arial','B',15);
     // Movernos a la derecha
