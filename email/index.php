@@ -89,9 +89,9 @@ background-size: 500px 300px;">
   
     <hr>
 
-    <h6><a href="../index.php"><i class="bi bi-house-fill"></i> Página principal</a></h6>
+    <h6><a href="../index.php" class="text-light" style="text-decoration:none;"><i class="bi bi-house-fill"></i> Página principal</a></h6>
 
-    <p class="mt-5 mb-3 text-muted"> Desarrollo: <strong>INJUVENTUD</strong><br>Gobierno del estado de Zacatecas<br>2021 - 2027</p>
+    <p class="mt-5 mb-3 text-light"> Desarrollo: <strong>INJUVENTUD</strong><br>Gobierno del estado de Zacatecas<br>2021 - 2027</p>
 </form>
 
 
