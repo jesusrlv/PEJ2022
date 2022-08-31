@@ -54,6 +54,34 @@ function Footer()
     // Número de página
     $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
 }
+
+function resizeToFit($imgFilename) {
+    list($width, $height) = getimagesize($imgFilename);
+
+    $widthScale = self::MAX_WIDTH / $width;
+    $heightScale = self::MAX_HEIGHT / $height;
+
+    $scale = min($widthScale, $heightScale);
+
+    return array(
+        round($this->pixelsToMM($scale * $width)),
+        round($this->pixelsToMM($scale * $height))
+    );
+}
+
+function centreImage($img) {
+    list($width, $height) = $this->resizeToFit($img);
+
+    // you will probably want to swap the width/height
+    // around depending on the page's orientation
+    $this->Image(
+        $img, (self::A4_HEIGHT - $width) / 2,
+        (self::A4_WIDTH - $height) / 2,
+        $width,
+        $height
+    );
+}
+
 }
 
 // Creación del objeto de la clase heredada
@@ -76,7 +104,8 @@ Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capa
 $pdf->SetFont('Arial','I',10);
 $pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'C',0);
 // $pdf->Image('../img/rubrica_pej2022.png','PNG');
-$pdf->Cell(15,15, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX(), $pdf->GetY(),15,15),1); 
+// $pdf->Cell(15,15, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX(), $pdf->GetY(),15,15),1); 
+$pdf->centreImage("../img/rubrica_pej2022.png");
 //IMAGE (RUTA,X,Y,ANCHO,ALTO,EXTEN)
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,'DIRECTOR GENERAL
