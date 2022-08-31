@@ -33,13 +33,13 @@ class PDF extends FPDF
 function Header()
 {
     // Logo
-    $this->Image('../img/logos_portada_pej2022.png',10,8,100);
+    $this->Image('../img/logos_portada_pej2022.png',10,8,200);
     // Arial bold 15
     $this->SetFont('Arial','B',15);
     // Movernos a la derecha
     $this->Cell(80);
     // Título
-    $this->Cell(30,10,utf8_decode('Constancia de participación'),0,0,'C');
+    // $this->Cell(30,10,utf8_decode('Constancia de participación'),0,0,'C');
     // Salto de línea
     $this->Ln(20);
 }
