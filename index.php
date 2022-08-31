@@ -95,7 +95,8 @@ background-size: 500px 300px;">
   <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user-plus"></i> Registrarse</button><!-- convocatoria cerrada -->
   <hr>
   <h6 class="text-light"><a href="email/index.php" class="text-light" style="text-decoration:none;"> ¿Olvidaste tu contraseña?</a></h6> <!-- convocatoria cerrada -->
-  <h6 class="text-light"><a href="" target="_blank" class="text-light" style="text-decoration:none;"><i class="bi bi-youtube"></i> Video tutorial</a></h6> <!-- convocatoria cerrada -->
+  <h6 class="text-light"><a href="https://youtu.be/dO-Yt-k5L3s" target="_blank" class="text-light" style="text-decoration:none;"><i class="bi bi-youtube"></i> Video tutorial registro</a></h6> <!-- convocatoria cerrada -->
+  <h6 class="text-light"><a href="https://youtu.be/PAGe953Wvjo" target="_blank" class="text-light" style="text-decoration:none;"><i class="bi bi-youtube"></i> Video categorías PEJ2022q</a></h6> <!-- convocatoria cerrada -->
   <!-- convocatoria cerrada -->
   <p></p>
   <p class="mt-5 mb-3 text-light"> Desarrollo: <strong>INJUVENTUD</strong><br>Gobierno del estado de Zacatecas<br>2021 - 2027</p>
