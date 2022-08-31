@@ -75,7 +75,8 @@ Continúa abriendo brechas, rompiendo estigmas y creciendo, ¡Tú talento y capa
 '),0,'J',0);
 $pdf->SetFont('Arial','I',10);
 $pdf->Multicell(190,9,'En la ciudad de Zacatecas, Zac., noviembre de 2022.',0,'C',0);
-$pdf->Image('../img/rubrica_pej2022.png','PNG');
+// $pdf->Image('../img/rubrica_pej2022.png','PNG');
+$pdf->Cell(15,15, $pdf->Image("../img/rubrica_pej2022.png", $pdf->GetX(), $pdf->GetY(),15,15),1); 
 //IMAGE (RUTA,X,Y,ANCHO,ALTO,EXTEN)
 $pdf->SetFont('Arial','B',10);
 $pdf->Multicell(190,8,'DIRECTOR GENERAL
