@@ -72,7 +72,7 @@ DEL ESTADO DE ZACATECAS',0,'C',0);
 
 // $pdf->Output();
 $modo="I";
-$nombre_archivo="constancia_PEJ2022".$usuario.".pdf";
+$nombre_archivo="constancia_PEJ2022_".$usuario.".pdf";
 $pdf->Output($nombre_archivo,$modo);  
 
 ?>
