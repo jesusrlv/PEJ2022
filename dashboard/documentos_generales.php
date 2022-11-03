@@ -19,7 +19,7 @@ include('../dashboard/prcd/conn.php');
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>Dashboard | PEJ 2021</title>
+    <title>Dashboard | PEJ 2022</title>
 
     <link rel="icon" type="image/png" href="../img/icon.ico"/>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
@@ -30,20 +30,6 @@ include('../dashboard/prcd/conn.php');
 
     <!-- Bootstrap core CSS -->
     <link href="../dashboard/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Gráfico -->
-
-
-<!-- FLOT CHARTS -->
-<script src="/bower_components/Flot/jquery.flot.js"></script>
-<!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
-<script src="/bower_components/Flot/jquery.flot.resize.js"></script>
-<!-- FLOT PIE PLUGIN - also used to draw donut charts -->
-<script src="/bower_components/Flot/jquery.flot.pie.js"></script>
-<!-- FLOT CATEGORIES PLUGIN - Used to draw bar charts -->
-<script src="/bower_components/Flot/jquery.flot.categories.js"></script>
-<!-- Page script -->
-    <!-- <script src="prcd/grafico.js"></script> -->
 
     <style>
       .bd-placeholder-img {

@@ -169,7 +169,7 @@ include('../dashboard/prcd/conn.php');
       <div class="jumbotron jumbotron-fluid " style="background-color:#f8f9fa; width:100%;border-radius:5px;  margin-top:25px; padding-top:45px;">
         <div class="container-fluid">
           <h1 class="h1">BIENVENIDO AL SISTEMA ADMINISTRADOR</h1>
-          <p class="lead"><i class="bi bi-award"></i> PREMIO ESTATAL DE LA JUVENTUD 2021 | INJUVENTUD</p>
+          <p class="lead"><i class="bi bi-award"></i> PREMIO ESTATAL DE LA JUVENTUD 2022 | INJUVENTUD</p>
           <hr class="my-4">
 
         <!-- consulta de validación -->

@@ -790,7 +790,7 @@ include('../dashboard/prcd/PROTOTIPO_qwery_admin.php');
                 echo '<td>'.$x.'</td>';
 
                 $id_consulta11=$row_usr11['id_ext1'];
-                $consulta11 = "SELECT * FROM datos WHERE id_ext ='$id_consulta'";
+                $consulta11 = "SELECT * FROM datos WHERE id_ext ='$id_consulta11'";
                 $resultado_consulta11= $conn->query($consulta11);
                 $row_consulta11=$resultado_consulta11->fetch_assoc();
 

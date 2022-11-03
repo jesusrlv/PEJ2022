@@ -187,7 +187,7 @@ include('../dashboard/prcd/conn.php');
 
         <?php 
             $id_consulta = $_REQUEST['id'];
-            $sql_qwery = "SELECT * FROM docs WHERE id_ext = '$id_consulta'";
+            $sql_qwery = "SELECT * FROM docs WHERE id_ext = '$id_consulta' ORDER BY tipo_doc ASC";
             $resultado_consulta= $conn->query($sql_qwery);
         ?>
 
